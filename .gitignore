@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases (never commit data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files: keep the example, ignore everything else
+.env
+.env.*
+!.env.example
+
+# Node / frontend build output
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
