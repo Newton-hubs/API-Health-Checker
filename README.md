@@ -1,5 +1,7 @@
 # API Health Checker
 
+[![CI](https://github.com/Newton-hubs/API-Health-Checker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Newton-hubs/API-Health-Checker/actions/workflows/ci.yml)
+
 A full-stack web application that checks whether a URL is reachable, measures its response time, and keeps a history with statistics. Built with **React**, **FastAPI**, **SQLite**, **SQLAlchemy 2.0**, **Alembic**, and **Docker**.
 
 The backend makes outbound HTTP requests on behalf of the user, so it includes SSRF protection (see [Security](#security)).
