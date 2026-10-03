@@ -17,6 +17,8 @@ MAX_REDIRECTS = int(os.getenv("MAX_REDIRECTS", "5"))
 # Browser origins allowed to call the API (comma-separated). Defaults to the Vite dev server.
 CORS_ORIGINS = [
     origin.strip()
-    for origin in os.getenv("CORS_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173").split(",")
-    if origin.strip()
+    for origin in os.getenv(
+        "CORS_ORIGINS",
+        "http://localhost:5173,http://127.0.0.1:5173,https://api-health-checker-hky6w40x3-angellas-projects-b7b01293.vercel.app"
+    ).split(",")
 ]
